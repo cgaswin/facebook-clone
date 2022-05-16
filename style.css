@@ -3,6 +3,9 @@
   box-sizing: border-box;
 }
 
+
+/*Header*/
+
 .header_left img {
   height: 40px;
 }
@@ -100,4 +103,29 @@
     color: gray;
     margin: 0 10px;
     cursor: pointer;
+}
+
+/*Sidebar*/
+
+.sidebar_row{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar_row:hover{
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+
+.sidebar_row h4{
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.sidebar_row .material-symbols-outlined{
+    font-size: xx-large;
+    color:#2e81f4
 }
