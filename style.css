@@ -185,5 +185,62 @@ body{
 .sidebar{
     padding: 25px 10px;
     flex: 0.33;
-    
+}
+
+/*Create Posts*/
+
+.message_sender{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    width: 100%;
+}
+
+.message_sender_top{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eff2f5;
+    padding: 15px;
+}
+
+.message_sender_top form{
+    flex: 1;
+    display: flex;
+}
+
+.message_sender_top form input{
+    flex: 1;
+    outline-width: 0;
+    border: none;
+    padding: 15px 20px;
+    margin: 0 10px;
+    border-radius: 999px;
+    background-color: #eff2f5;
+}
+
+.message_sender_bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.message_sender_option{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin: 5px;
+}
+
+.message_sender_option h3{
+    font-size: medium;
+    margin-left: 10px;
+}
+
+.message_sender_option:hover{
+    cursor: pointer;
+    background-color: #eff2f5;
+    border-radius: 20px;
 }
